@@ -2,7 +2,7 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import {dividirNumeros,sumaNumeros} from './promises.ts';
+import {dividirNumeros,sumaNumeros} from './operations.ts';
 
 sumaNumeros(5, 10);
 dividirNumeros(5,0);
